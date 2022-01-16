@@ -1,0 +1,6 @@
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2022 12:20:06] "[32mPOST /add_user HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2022 12:20:06] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2022 12:20:06] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2022 12:20:20] "[32mPOST /add_user HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2022 12:20:20] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jan/2022 12:20:20] "[36mGET /static/index.css HTTP/1.1[0m" 304 -
