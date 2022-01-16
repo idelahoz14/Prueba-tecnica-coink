@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registros</title>
+    <link rel="stylesheet" href="../static/index.css">
+</head>
+<body>
+    <!-- Section Header -->
+    <section class="section-header">
+        <header>
+            <div class="title-container">
+                <h2 class="title">Registros</h2>
+            </div>
+        </header>
+    </section>
+    <!-- Section Table -->
+    <section class="section-table">
+        <div class="table">
+            <h2 class="title-table">Usuarios Registrados</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <td>Nombre Completo</td>
+                        <td>Email</td>
+                        <td>Ciudad</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for user in users %}
+                    <tr>
+                        <td>{{ user.0 }}</td>
+                        <td>{{ user.1 }}</td>
+                        <td>{{ user.2 }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+            <a href="/">Volver</a>
+        </div>
+    </section>
+    <!-- Section footer -->
+    <section class="section-footer">
+        <footer>
+            <div class="footer-container">
+                <p class="footer-information"> App web developed by <a href="https://www.linkedin.com/in/isaacdelahoz/">Isaac De La Hoz</a></p>
+            </div>
+        </footer>
+    </section>
+</body>
+</html>
